@@ -1,0 +1,307 @@
+/****************************
+******General Formattings****
+****************************/
+
+html {
+    font-size:40px;
+    color:white;
+    background-color: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+hr {
+    width:100%;
+    height:10px;
+    background-color: #808080;
+    opacity: 0.4;
+}
+
+
+.text{
+    font-weight: lighter;
+    font-size: 75%;
+    color:white;
+}
+.heading {
+    padding-bottom: 40px;
+    font-size:60px ;
+    font-weight: bold;
+}
+
+/*************
+* Styles to Top Section
+****************/
+.row {
+    padding-top:50px;
+}
+.top {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    no-repeat url('../images/background.png') center center / cover;
+
+    /* background:no-repeat url('../images/background.png')  cover; */
+    height:700px;
+}
+.netflix-logo {
+    color:red !important;
+    padding-left:180px;
+    font-family: Arial Black, Helvetica Bold;
+    letter-spacing: 1px;
+    transform: rotate(-2deg) skew(-10deg);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    /* transform: rotate (-90deg);  */
+}
+
+
+.btn-sign-in {
+    text-decoration: none;
+    outline: none;
+    font-style: none;
+    margin-left:840px;
+    background-color: #f51c1c;
+    border-radius: 3px;
+    font-size:50%;
+    padding:4px 8px;
+    transition: background-color 2s;
+    color:white;
+}
+
+.btn-sign-in:hover {
+    background-color: #b91414;
+        }
+
+.logo {
+    width: 200px;
+    padding-top:20px;
+    padding-left: 70px;
+    margin-left: 100px;
+    background-color: black;
+}
+
+.top-content{
+    padding-top:200px;
+    text-align: center;
+    font-size: 85%;
+}
+
+.top-text{
+    padding-top:20px;
+}
+
+.email {
+    margin-top: 15px;
+    padding: 20px;
+    width:400px;
+    background:rgba(0, 0, 0, 0.7);;
+    border-radius: 3px;
+}
+.email::placeholder{
+    color:white;
+}
+.email-start {
+    border:none;
+    padding:14px;
+    padding-bottom: 15px; 
+    background-color: #f51c1c;
+    color: #fff;
+    width:200px;
+    font-size: 60%;
+    border-radius: 5px;
+    transition: background-color 2s ;
+}
+.email-start:hover {
+    background-color: #b91414;
+    cursor: pointer;
+        
+    }
+
+
+/*************
+* Styles to Second Section i.e Televsion Section
+****************/
+
+.tv-text,.tv-image{    
+    width:50%;
+    margin:0px auto;
+            }
+.tv-text {
+    float:left;
+    padding:100px 20px;
+    font-weight: lighter;
+
+    }
+
+.tv-image { 
+    /* float:left; */
+    display: inline-block;
+     width: 100px; 
+    }
+.tv-image img {
+    width:470px;
+}
+.pad-left-content{
+    margin-left:100px;
+    }
+
+    /*******************
+    **Formatting Mobile Section*
+    *********************/
+
+.mobile-section{
+    padding-top: 150px;
+    padding-bottom: 500px;
+    /* background-color: #f51c1c; */
+}
+.mobile-text,.mobile-image{    
+        width:50%;
+        margin:0px auto;
+        float:left;
+                }
+    
+.mobile-text  h1 {
+    display: inline-block;
+    width:400px;
+    line-height: 60px;
+}
+.mobile-text .text {
+    display: inline-block;
+    width:400px;
+}
+.image {
+    width:100%;
+    padding-left: 300px;
+    margin-right: 200px;
+    margin-top:-30px;
+}
+ 
+    /*******************
+    ** Watch Section*
+    *********************/
+  
+.watch {
+    width:40%;
+    padding-bottom: 120px;
+}
+
+.watch h1 {
+    width:25%;
+}
+
+    /*******************
+    ** Kids  Section*
+    *********************/
+
+.kids-text,.kid-image{    
+    width:50%;
+    margin:0px auto;
+    float:left;
+        }
+.kids-text{
+    padding-top:100px;
+}
+.kids-text{
+    padding-right:100px;
+}
+
+    /*******************
+    ** Frequently Asked Questions*
+    *********************/
+.faqs  {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.faqs h1 {
+    margin-bottom: -30px;
+}
+
+.faq {
+    background-color: rgba(128, 128, 128, 0.3);
+    margin-top: 10px;
+    padding:20px;
+    text-align:left;
+    margin-left:150px;
+    margin-right:150px;
+    transition: background-color 1s;
+}
+.faq:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+}
+.plus {
+    float: right;
+    margin-left: 10px; /* add some margin to separate from text */
+    }
+.no-opacity {
+    opacity:1;
+    color:white;
+}
+
+.subs {
+    margin-top:50px;
+    margin-bottom:10px;
+    font-size: 20px;
+    margin-left:-30px;
+}
+
+.membership .email-start{
+    margin-top:20px;
+}
+
+/******************
+******FooTer*******
+*******************/
+
+.grid {
+    width:25%;
+    float:left; 
+    padding-left:30px;
+    line-height: 20px;
+}
+
+.menu-1 ul li {
+    list-style: none;
+    line-height: 35px;
+    font-weight: lighter;
+    font-size: 35%;
+    text-decoration: underline;
+    color:#808080;
+}
+
+select option {
+    padding:10px;
+    color:#fff;
+}
+
+.netflix-features{
+    margin-left:100px;
+    margin-bottom:100px;
+}
+
+.netflex-pak{
+    color: rgb(250, 9, 9);;
+    margin-top:20px;
+    margin-bottom: 70px;
+}
+#pak {
+    color: rgb(14, 219, 14);;
+}
+
+.netflix-features > .text:first-child {
+   margin-left:30px;
+   margin-bottom:20px;
+   font-size: 40%;
+   color:#808080;
+}
+
+.menu-1 > select ,.menu-1 > selected {
+    background-color:rgba(0, 0, 0, 0.651) ;
+    color:white; 
+    padding:10px;
+    text-align:center;
+    width:150px;
+}
