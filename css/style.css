@@ -137,9 +137,9 @@ hr {
     }
 
 .tv-image { 
-    /* float:left; */
     display: inline-block;
-     width: 100px; 
+    float:left; 
+    width: 100px; 
     }
 .tv-image img {
     width:470px;
